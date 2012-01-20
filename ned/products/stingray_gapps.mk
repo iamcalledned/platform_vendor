@@ -40,12 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/ned/proprietary/common/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/ned/proprietary/common/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
-    vendor/ned/proprietary/common/app/SetupWizard2.apk:system/app/SetupWizard.apk \
+    vendor/ned/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/ned/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/ned/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/ned/proprietary/common/app/talkback.apk:system/app/talkback.apk \
-    vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/ned/proprietary/common/xbin/su:system/bin/su \
     vendor/ned/proprietary/common/xbin/busybox:system/bin/busybox \
     vendor/ned/proprietary/common/etc/contributors.css:system/etc/contributors.css \
     vendor/ned/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
