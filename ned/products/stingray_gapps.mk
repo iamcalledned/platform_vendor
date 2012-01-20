@@ -55,7 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/ned/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/ned/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-    vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
+    vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+    vendor/ned/proprietary/common/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk 
     
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
