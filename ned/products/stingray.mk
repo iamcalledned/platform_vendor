@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES +=  \
 
 
 # Inherit Face lock security blobs
-#-include vendor/ned/products/common_facelock.mk
+-include vendor/ned/products/common_facelock.mk
 
 # Inherit drm blobs
 -include vendor/ned/products/common_drm.mk
