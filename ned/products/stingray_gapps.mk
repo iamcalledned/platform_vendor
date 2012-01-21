@@ -56,7 +56,15 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/ned/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
-    vendor/ned/proprietary/common/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk 
+    vendor/ned/proprietary/common/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \
+    vendor/ned/proprietary/stingray/lib/libnvomx.so:system/lib/libnvomx.so \
+    vendor/ned/proprietary/stingray/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/ned/proprietary/stingray/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
+    vendor/ned/proprietary/stingray/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+    vendor/ned/proprietary/stingray/lib/hw/camera.stingray.so:system/lib/hw/camera.stingray.so \
+    vendor/ned/proprietary/stingray/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+    vendor/ned/proprietary/stingray/lib/hw/hwcomposer.tegra.so:system/hw/egl/hwcomposer.tegra.so \
+    vendor/ned/proprietary/stingray/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so 	 
     
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
