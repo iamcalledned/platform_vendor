@@ -43,19 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/ned/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/ned/proprietary/common/app/Talk.apk:system/app/Talk.apk \
-    vendor/ned/proprietary/common/app/talkback.apk:system/app/talkback.apk \
-    vendor/ned/proprietary/common/xbin/busybox:system/bin/busybox \
-    vendor/ned/proprietary/common/etc/contributors.css:system/etc/contributors.css \
-    vendor/ned/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/ned/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
-    vendor/ned/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
-    vendor/ned/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
-    vendor/ned/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-    vendor/ned/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
-    vendor/ned/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/ned/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/ned/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-    vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
+    vendor/ned/proprietary/common/app/talkback.apk:system/app/talkback.apk 
     
     
 
