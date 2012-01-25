@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/ned/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/ned/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
-    vendor/ned/proprietary/common/app/StingrayQuickOffice.apk:system/app/StingrayQuickOffice.apk \
     vendor/ned/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/ned/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/ned/proprietary/common/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
