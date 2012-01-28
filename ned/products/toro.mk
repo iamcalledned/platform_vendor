@@ -24,13 +24,12 @@ PRODUCT_COPY_FILES +=  \
     vendor/ned/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/ned/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/ned/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/ned/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/ned/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/ned/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
     vendor/ned/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
 
 #    vendor/ned/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
-
+#    vendor/ned/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
+#    vendor/ned/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
 
 # Inherit Face lock security blobs
 -include vendor/ned/products/common_facelock.mk
