@@ -67,12 +67,12 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
 # Blobs common to all devices except emulator
 PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
-    vendor/ned/proprietary/common/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/ned/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/ned/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/ned/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/ned/proprietary/common/app/YouTube.apk:system/app/YouTube.apk
 endif
+#    vendor/ned/proprietary/common/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
