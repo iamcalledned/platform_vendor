@@ -18,10 +18,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1
 
 # Blobs common to all devices
+#vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
 PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/AmazonMarket.apk:system/app/AmazonMarket.apk \
     vendor/ned/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
-    vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/ned/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
     vendor/ned/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/ned/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \

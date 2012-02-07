@@ -20,7 +20,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/AmazonMarket.apk:system/app/AmazonMarket.apk \
-    vendor/ned/proprietary/common/app/BackupRestoreConfirmation.apk:system/app/BackupRestoreConfirmation.apk \
     vendor/ned/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
     vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/ned/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
