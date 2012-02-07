@@ -3,6 +3,8 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/ned/products/toro_gapps.mk)
+$(call inherit-product, vendor/ned/products/toro_proprietary.mk)
+
 
 # Setup device specific product configuration.
 PRODUCT_NAME := ned_toro
@@ -18,18 +20,19 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=IMM30B BUILD_FINGERP
 
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/ned/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/ned/proprietary/tuna/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/ned/proprietary/tuna/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
-    vendor/ned/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
-    vendor/ned/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/ned/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/ned/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/ned/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
+    vendor/ned/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk 
+#    vendor/ned/proprietary/tuna/media/LMprec_508.emd:system/media/LMprec_508.emd \
+#    vendor/ned/proprietary/tuna/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
+#    vendor/ned/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 #\
+#    vendor/ned/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
+#    vendor/ned/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/#com.google.android.media.effects.xml \
+#    vendor/ned/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
 
 #    vendor/ned/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
 #    vendor/ned/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
 #    vendor/ned/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
+#    vendor/ned/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
+
 
 # Inherit Face lock security blobs
 -include vendor/ned/products/common_facelock.mk
