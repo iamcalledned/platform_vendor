@@ -20,8 +20,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Blobs common to all devices
 #vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
 PRODUCT_COPY_FILES += \
-    vendor/ned/proprietary/common/app/Camera.apk:system/app/Camera.apk \
-    vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
     vendor/ned/proprietary/common/app/AmazonMarket.apk:system/app/AmazonMarket.apk \
     vendor/ned/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
     vendor/ned/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \

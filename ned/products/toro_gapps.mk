@@ -20,10 +20,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Blobs common to all devices
 #vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
 PRODUCT_COPY_FILES += \
-    vendor/ned/proprietary/common/lib/libmotricity.so:system/lib/libmotricity.so \
-    vendor/ned/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
-    vendor/ned/proprietary/common/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    vendor/ned/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/ned/proprietary/common/app/Camera.apk:system/app/Camera.apk \
     vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
     vendor/ned/proprietary/common/app/AmazonMarket.apk:system/app/AmazonMarket.apk \
