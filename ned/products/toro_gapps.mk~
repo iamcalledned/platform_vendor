@@ -18,10 +18,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1
 
 # Blobs common to all devices
+#vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
 PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/AmazonMarket.apk:system/app/AmazonMarket.apk \
     vendor/ned/proprietary/common/app/BooksTablet.apk:system/app/BooksTablet.apk \
-    vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/ned/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
     vendor/ned/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/ned/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
@@ -60,21 +60,48 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/ned/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/ned/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-    vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
-    
-
-ifeq ($(TARGET_BUILD_VARIANT),user)
-# Blobs common to all devices except emulator
-PRODUCT_COPY_FILES += \
+    vendor/ned/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/ned/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/ned/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/ned/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/ned/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
-    vendor/ned/proprietary/common/app/YouTube.apk:system/app/YouTube.apk
-endif
-#    vendor/ned/proprietary/common/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
+    vendor/ned/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
+    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml   \
+    vendor/ned/proprietarytoro/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
+    vendor/ned/proprietarytoro/proprietary/fRom:system/bin/fRom \
+    vendor/ned/proprietarytoro/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/ned/proprietarytoro/proprietary/libsyncml_core.so:system/lib/libsyncml_core.so \
+    vendor/ned/proprietarytoro/proprietary/libsyncml_port.so:system/lib/libsyncml_port.so \
+    vendor/ned/proprietarytoro/proprietary/lib_gsd4t.so:system/lib/lib_gsd4t.so \
+    vendor/ned/proprietarytoro/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+    vendor/ned/proprietarytoro/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
+    vendor/ned/proprietarytoro/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
+    vendor/ned/proprietarytoro/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
+    vendor/ned/proprietarytoro/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/ned/proprietarytoro/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
+    vendor/ned/proprietarytoro/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+    vendor/ned/proprietarytoro/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/ned/proprietarytoro/proprietary/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
+    vendor/ned/proprietarytoro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
+    vendor/ned/proprietarytoro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/ned/proprietarytoro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/ned/proprietarytoro/proprietary/libims.so:system/vendor/lib/libims.so \
+    vendor/ned/proprietarytoro/proprietary/libims_jni.so:system/vendor/lib/libims_jni.so \
+    vendor/ned/proprietarytoro/proprietary/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
+    vendor/ned/proprietarytoro/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/ned/proprietarytoro/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/ned/proprietarytoro/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/ned/proprietarytoro/proprietary/libsec-ril_lte.so:system/vendor/lib/libsec-ril_lte.so \
+    vendor/ned/proprietarytoro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/ned/proprietarytoro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/ned/proprietarytoro/proprietary/libusc.so:system/vendor/lib/libusc.so
 
-# Enable SIP+VoIP on all targets
-PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+# All the apks necessary for toro
+PRODUCT_PACKAGES += \
+    BIP \
+    IMSFramework \
+    RTN \
+    SDM \
+    SyncMLSvc
+
 

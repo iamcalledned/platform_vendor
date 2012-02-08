@@ -3,7 +3,7 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/ned/products/toro_gapps.mk)
-$(call inherit-product, vendor/ned/products/toro_proprietary.mk)
+
 
 
 # Setup device specific product configuration.
