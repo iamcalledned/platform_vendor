@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/ned/proprietarytoro/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/ned/proprietary/common/xbin/su:system/xbin/su \
     vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
+#    vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
 #vendor/ned/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
 #    vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
 #    vendor/ned/proprietary/common/xbin/su:system/xbin/su \
