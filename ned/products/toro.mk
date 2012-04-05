@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/ned/proprietary/common/xbin/su:system/xbin/su \
     vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
-    vendor/ned/proprietary/common/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
+    vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
 #vendor/ned/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
 #    vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
 #    vendor/ned/proprietary/common/xbin/su:system/xbin/su \
