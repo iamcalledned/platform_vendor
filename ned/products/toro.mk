@@ -31,7 +31,7 @@ PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=IMM30B BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM30B/257829:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM30B 257829 release-keys" BUILD_NUMBER=257829
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=IMM76K BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" BUILD_NUMBER=336647
 
 # Inherit common build.prop overrides
 -include vendor/ned/products/common_versions.mk
@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/ned/proprietary/common/app/Gallery.apk:system/app/Gallery.apk \
     vendor/ned/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
+    vendor/ned/proprietary/common/app/MusicFX.apk:system/app/MusicFX.apk \
 #vendor/ned/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
 #    vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
 #    vendor/ned/proprietary/common/xbin/su:system/xbin/su \
